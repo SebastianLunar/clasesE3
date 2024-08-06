@@ -1,0 +1,60 @@
+:root {
+  --verdeOscuro: #1c521f
+}
+
+body {
+  background-color:bisque
+}
+
+nav {
+  background-color: #625cb0  
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+nav ul li{
+  list-style: none;
+  cursor: pointer;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+#userName{
+  color: green;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black
+}
+
+div {
+  width: 50vw;
+  height: 50vw;
+  margin-bottom: 10px;
+  background-color: var(--verdeOscuro);
+}
+
+.contenedores {
+  border: 5px solid black
+}
+
+.contenedores {
+  border: 2px solid black
+}
+
+#caja1 {
+  color: white;
+}
+
+div.contenedores#caja1 {
+   width: 70vw;
+}
