@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>      
+      <li><a href="./page1.html">Clase 1</a></li>
+      <li><a href="./pag2.html">Clase 2</a></li>
+      <li><a href="./pag3.html">Clase 3</a></li>
+      <li><a href="./page4.html">Clase 4</a></li>
+    </ul>
+  </nav>
+  <h1 id="h1">Clase 4</h1>
+  <h1>Ejercicio Citas Médicas</h1>
+
+  <form id="form">
+    <label for="name">Nombre</label>
+    <input type="text" id="name" placeholder="Nombre del Doctor" />
+    <br />
+    <label for="date">Fecha</label>
+    <input type="date" id="date" placeholder="Fecha de Cita" />
+    <br />
+    <label for="time">Hora</label>
+    <input type="time" id="time" placeholder="Hora de Cita" />
+    <br />
+    <label for="cause">Motivo</label>
+    <textarea type="text" id="cause" placeholder="Motivo de la Cita"></textarea>
+    <br />
+    <button type="submit">Agregar Cita</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Doctor</th>
+        <th>Fecha</th>
+        <th>Hora</th>
+        <th>Motivo</th>
+        <th>Acción</th>
+      </tr>
+    </thead>
+    <tbody id="citas"></tbody>
+  </table>
+
+
+  <script src="../scripts/script4.js"></script>
+</body>
+</html>

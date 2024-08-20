@@ -58,3 +58,8 @@ div {
 div.contenedores#caja1 {
    width: 70vw;
 }
+
+table, tr, th, td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
